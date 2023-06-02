@@ -59,3 +59,15 @@ export class updateInfo {
   @ApiProperty({ description: 'loai_nguoi_dung', type: 'string' })
   loai_nguoi_dung: string;
 }
+
+export class ListFilmDate {
+  @ApiProperty({ description: 'tu_ngay', type: 'number' })
+  tu_ngay: Date;
+  @ApiProperty({ description: 'den_ngay', type: 'number' })
+  den_ngay: Date;
+}
+
+export class InfoPhim {
+  @ApiProperty({ description: 'ma_phim', type: 'string' })
+  ma_phim: string;
+}
